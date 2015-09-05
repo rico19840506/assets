@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+#sortable{
+	list-style:none;
+	margin: 0;
+	padding: 0
+	float:820px;
+}
+
+#sortable li{
+	margin:3px;
+	padding:3px;
+	float: left;
+}
+
+h1 a {
+	float: right;
+	display: inline-block;
+	font-size: .8em;
+	padding: 8px;
+	text-decoration: none;
+	background-color: silver;
+	border: 1px solid gray;
+	margin: -5px 25px 0 0;
+}
+
+#sortable{
+	list-style-type: none;
+	padding: 0;
+}
+
+#sortable li{
+	margin: 3px;
+	padding: 3px;
+	float: left;
+
+}
+
+$(function(){
+	$("#sortable").sortable().
+	disableselection();
+});
+

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+#stylemenu{
+	padding: 2em 0;
+}
+
+#stylemenu input +lable{
+	font-weight: bold;
+}
+
+
+#stylemenu #check1 +lable{
+	font-weight: bold;
+}
+
+#stylemenu #check2 +lable{
+	font-style:italic;
+}
+
+#stylemenu #check3 +lable{
+	text-decoration:underline;
+	}
+	
+	#stylemenu #check4 +lable{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.4em;
+	
+}
+
+#stylemenu #check5 +lable{
+	text-decoration:line-through;
+	}
+	
+	#stylemenu #check +lable{
+		font-variant:small-caps;
+}
+
+di#ui-datepicker-div{
+	margin-top: 10px;
+	}

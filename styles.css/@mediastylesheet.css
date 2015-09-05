@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("phone.css") only screen and(max-width:480px);
+@import url("tablete.css"only screen and (win-width:480px)and(max-width:769px);
+@import url("desktop.css"only screen and (win-width:769px);
+
+@ media screen and (max-width:480){
+h1 
+  {font-size: large;
+  }}
+  
+  body{
+	  font-family: Verdana, Geneva, sans-serif;
+	  background:color:#666;
+	  color:#000;
+	  margin:0;
+	  padding:0;
+	  text-align:center;
+  }
+  
+  h1,h2,h3,h4,h5,h6
+  { font-family: Arial, Helvetica, sans-serif;
+  
+  
+  }
+  
+  main {
+	  
+	  width: 80%;
+	  margin: 0 auto;
+	  padding: 0;
+	  text-align:center;  
+	  }
+	  
+	  
+ header
+ {
+	 background-color:#91a43d;
+	 text-align:center;
+	 margin:   0;
+	 padding:  0;
+	 overflow: hidden;
+ }
+ 
+ header img{
+	 width     : 100% ;
+	 max-height: 800px;
+	 height    : 110px;
+ }
+ 
+ 
+ article {
+	 background-color:#fff;
+	 padding: 10px 20px 0 1em;
+ }
+ 
+ articla::after{
+	 clear: both;
+	 content:"";
+	 display: table;
+ }
+ 
+ .photo{
+	 float:right;
+	 margin-left: .8em;
+	 width:200px;
+	 font-size: .8em;
+	 font-style: italic;
+	 line-height: 1em;
+ }
+ 
+ footer p{
+	 margin: 0;
+	 padding: 10px0;
+	 background-color: #ddd;
+	 text-align:center;
+	 font-size:.8em;
+ }
+ 
+ 
+ @ meadia only screen and (max-device-width:
+ 1024px) {
+	 main{
+		 width::100%
+	 }
+	 
+	 nav{
+		 font-weight:normal;
+	 }
+	 
+	 h1,h2,h3,h4,h5,h6;{
+		 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	 }
+	 
+	 .landscape {
+		 font-size: .5em;
+	 }
+	 
+	 .portrait{
+		 font-family: .8em;
+	 }
+	 
+	 @ media only screen and (min-resolution:1992dpi), only screen and (
+	 webkit-min-device- pixel-ration:20),
+	 only screen and (min-device-width:786px) and
+	 (max-device-width:1024px){
+		 header img{
+			 width:640px;
+			 }
+			 }

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+
+<meta charset="UTF-8">
+<title>jQuery Mobile Web App</title>
+<link href="../jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="../jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="../jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+<div data-role="header">
+		      
+<h1>login</h1>
+        <div>
+<form METHOD="POST" name="login_form">
+<label>Username:<br/></label> 
+<input name="usernames" type="text" data-theme="e"><br/>
+
+<span id="sprypassword1">
+
+<label for="password1"></label>
+<label>password:<br/></label>
+<input type="password" name="password1" id="password1">
+<input name="submit" type="submit" value="sigin" data-theme="e" />
+</form>
+    <form>
+</form>
+
+  <div data-role="footer">
+	
+	</div>
+</div>
+
+
+
+</body>
+
+
+</html>
